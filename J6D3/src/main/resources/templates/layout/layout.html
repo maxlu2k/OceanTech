@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org" th:fragment="dynamic(view)">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+</head>
+<body >
+  <header>
+    <img th:src="@{/images/logo.png}" style="width: 200px;">
+  </header>
+  <hr>
+  <nav th:insert="~{/layout/menunav :: navbar}"></nav>
+  <hr>
+<!--<main th:replace="${view}"></main>-->
+  <div th:replace="${view}"></div>
+  <hr>
+  <hr>
+<footer>FPT Polytechnic</footer>
+</body>
+</html>

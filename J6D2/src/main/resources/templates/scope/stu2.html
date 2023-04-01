@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{|student?index=${n - 1}|}">Back</a>
+[~[[${n + 1}]]/4~]
+<a th:href="@{|student?index=${n + 1}|}">Next</a>
+<ul th:object="${sv}">
+    <li>Name: [[${sv.name}]]</li>
+    <li>Gender: [[${sv.gender?"Male":"Female"}]]</li>
+    <li>Mail: [(${sv.contact.email})]</li>
+    <li>Marks: [(${sv.marks > 5 ? "pass" : "Fail"})]</li>
+</ul>
+</body>
+</html>

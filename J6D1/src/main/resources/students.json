@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Nguyễn Đình Mạnh Dũng",
+    "gender":true,
+    "marks": 9.5,
+    "contact":{
+      "email":"Dung@123.com",
+      "phone":"0905591955"
+    },
+    "subject":["WEB205","COM108"]
+  },
+  {
+    "name":"Nguyễn Thị Ninh",
+    "gender":false,
+    "marks": 9.5,
+    "contact":{
+      "email":"ninh@gmail.com",
+      "phone":"0905591955"
+    },
+    "subject":["WEB205","COM108"]
+  }
+]
