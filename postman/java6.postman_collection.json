@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "c6845b2c-4f1b-4ffe-b0ff-29904814ff89",
+		"name": "java6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21425907"
+	},
+	"item": [
+		{
+			"name": "java6d2",
+			"item": [
+				{
+					"name": "demo4.6",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"-NRDhcSw7p0J365sf0vf\": {\r\n        \"contact\": {\r\n            \"country\": \"Việt Nam\",\r\n            \"email\": \"teo@gamil.com\",\r\n            \"phone\": \"0358850855\"\r\n        },\r\n        \"gender\": true,\r\n        \"marks\": 9.0,\r\n        \"name\": \"Nguyễn Văn Tèo 2.1\",\r\n        \"subject\": [\r\n            \"WEB205\",\r\n            \"COM108\",\r\n            \"MOB108\",\r\n            \"TES108\"\r\n        ]\r\n    },\r\n    \"-NRDhggpM1jmaHo4YaSx\": {\r\n        \"contact\": {\r\n            \"country\": \"US\",\r\n            \"email\": \"chinh@gamil.com\",\r\n            \"phone\": \"090559955\"\r\n        },\r\n        \"gender\": false,\r\n        \"marks\": 4.0,\r\n        \"name\": \"Nguyễn Văn Chính\",\r\n        \"subject\": [\r\n            \"COM108\"\r\n        ]\r\n    },\r\n    \"-NRDhjFUqj-T14L1niu6\": {\r\n        \"contact\": {\r\n            \"country\": \"Việt Nam\",\r\n            \"email\": \"bach@gamil.com\",\r\n            \"phone\": \"090559955\"\r\n        },\r\n        \"gender\": true,\r\n        \"marks\": 7.0,\r\n        \"name\": \"Nguyễn Văn Bách\",\r\n        \"subject\": [\r\n            \"WEB205\",\r\n            \"COM108\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://java-6-f6778-default-rtdb.asia-southeast1.firebasedatabase.app/student.json",
+							"protocol": "https",
+							"host": [
+								"java-6-f6778-default-rtdb",
+								"asia-southeast1",
+								"firebasedatabase",
+								"app"
+							],
+							"path": [
+								"student.json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "demo4.6",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "d4.7",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
